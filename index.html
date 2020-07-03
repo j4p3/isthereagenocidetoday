@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  <title>Is there a genocide today?</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Primary Meta Tags -->
+  <title>Is there a genocide today?</title>
+  <meta name="title" content="Is there a genocide today?">
+  <meta name="description" content="Yes.">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://isthereagenocide.today/">
+  <meta property="og:title" content="Is there a genocide today?">
+  <meta property="og:description" content="Yes.">
+  <meta property="og:image" content="/thumb.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://isthereagenocide.today">
+  <meta property="twitter:title" content="Is there a genocide today?">
+  <meta property="twitter:description" content="Yes.">
+  <meta property="twitter:image" content="/thumb.png">
+
+
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <meta name="theme-color" content="#1c1c1c">
+  <style>
+    body {
+      font-family: 'Helvetica', Arial, sans-serif;
+      color: #1c1c1c;
+      line-height: 1.4em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    main {
+      text-align: center;
+    }
+    h1 {
+      font-size: 4em;
+      @media (min-width: 800px) {
+        font-size: 6em;
+      }
+    }
+    h2 {
+      font-size: 2em;
+      @media (min-width: 800px) {
+        font-size: 4em;
+      }
+    }
+    article {
+      max-width: 480px;
+    }
+    .var {
+      background-color: lightgray;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <h2>Today's date: <span id="date"></span></h2>
+    <h2>Is there a genocide today?</h2>
+    <h1>Yes. There is a genocide today.</h1>
+  </main>
+  <article>
+    <p>Uighur people are being exterminated in China. About 10% of the population is currently in concentration camps.</p>
+    <h3>Documentation:</h3>
+    <p>
+      <ul>
+        <li><a target="_blank" href="https://www.nytimes.com/interactive/2019/11/16/world/asia/china-xinjiang-documents.html">
+          Chinese Party documents explaining what to tell people whose families have disappeared
+        </a></li>
+        <li><a target="_blank" href="/china-cables.pdf">
+          Chinese Party communications containing instructions on how to run the concentration camps
+        </a></li>
+      </ul>
+    </p>
+  </article>
+  <article>
+    <h3>Synopsis:</h3>
+    <p>A Muslim ethnic group called the Uighur people live in a region called Xinjiang, which was conquered by China in the 1700s. In recent years, Uighur separatist groups have attacked people with knives elsewhere in China. Now the Chinese Party is attempting eliminate the Uighur people by kidnapping their leaders, kidnapping their children to ensure they don't speak their parents' language, and kidnapping any Uighur who objects. A massive surveillance network and thousands of concentration camps have been built to accomplish this. The situation is a Holocaust: graveyards of Uighurs are being paved over, detaniees' organs are being harvested, and the extent of the atrocity is being concealed from the Chinese people and from the world.</p>
+  </article>
+  <article>
+    <h3>What can you do?</h3>
+    <p>Spread the word, continue to educate yourself, and make your views heard by your government representatives. Intense economic pressure from the entire world is the only option short of war that will protect the Uighur people.</p>
+    <p>If you live in the US, you can find your representatives here: <a href="https://www.usa.gov/elected-officials">USA official elected official finder</a></p>
+  </article>
+</body>
+
+<script>
+  const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+  const today = new Date();
+  const date = `${months[today.getMonth() - 1]} ${today.getDate()}`
+  document.querySelector("#date").textContent = date;
+</script>
+</html>
